@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Copyright 2016, Christy Smith, csmith119@elon.edu, All Rights Reserved-->
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+         <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="styles/email.css" />
+	<title>Halloween Store</title>
+</head>
+
+<body>
+
+<div id="heading">
+<img id="pumpkin" src="images/pumpkin.gif" alt="pumpkin image" >
+<h1 id="title">The Halloween Store</h1>
+
+  <h2>For the little Goblin in all of us!</h2>
+</div>
+<ul class="nav">
+    <li ><a href="index.html">Home</a></li>
+    <li><a href="products/table.html">Product List</a></li> 
+    <li><a href="personal.html">Personal</a></li>
+    <li><a href="decorating.html">Decorating Ideas</a></li>
+    <li id="currentLink"><a href="email.html">Join Email</a></li>
+</ul>
+<ul class="side">
+    <li><a href="products/props.html">Props</a></li>
+    <li><a href="products/costumes.html">Costumes</a></li> 
+    <li><a href="products/effects.html">Special Effects</a></li>
+    <li><a href="products/masks.html">Masks</a></li>
+</ul>
+<div id="main"> 
+    <h3><strong>Please enter the following information</strong></h3>
+    <form action="goelon" method="post">
+    <input type="hidden" name="action" value="add"> 
+    <p><label>First name:</label><input name="FName" type="text" required autofocus /></p>
+    <p><label>Last name:</label><input name="LName" type="text" required /></p>
+    <p><label>Email:</label><input name="Email" type="email" required /></p>
+    <p><label>Zip Code:</label> 
+      <input name="Zipcode" type="text" pattern="^[0-9]{5}$" placeholder="#####" /></p>
+    <p><input id="button" type="submit" value="Subscribe" /></p>
+  </form>				
+</div>
+<footer> &copy; 2016 Ben Murach</footer>
+
+</body>
+</html>

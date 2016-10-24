@@ -1,0 +1,136 @@
+/*==============Halloween Store Stylesheet================*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+  background-image:url("../images/bats.gif");
+}
+body{
+  background-color:white;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px black;
+  font-family: 'Open Sans';   
+  margin:auto;
+  width:800px; 
+} 
+#heading{
+  background:linear-gradient(45deg,white,orange,black);
+  border-bottom: 2px solid black;
+  display:inline-block;
+  width:800px;
+}
+#pumpkin{
+  float:left;
+  height:100px;
+  margin:20px;
+  width:100px;
+}
+#title{
+  font-size: 35px;
+  font-weight: 900;
+  text-indent:10px;
+  margin-bottom:0;
+}
+h2{
+  font-size:30px;
+  font-weight: 900;
+  text-indent:10px;
+  margin-top:0;
+}
+a{
+  color:orange;
+}
+.nav{
+  margin:0;
+  padding:0;
+}
+.nav li{
+  background-color:black;
+  color:white;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width:20%;
+}
+.nav a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+    
+}
+#currentLink a{
+  color:orange;
+  font-weight:bolder;
+}
+.nav a:hover{
+  background-color: #ccc;
+}
+#main{
+  float:right;
+  margin:0;
+  position:relative;
+  width:550px;   
+}
+
+h3{
+  font-size:22px;
+}
+
+.side{
+  display:inline-block;
+  float:left;
+  margin:0;
+  position:static;
+  width:160px;
+}
+.side li {
+  background:orange;
+  border: 1px solid black;
+  color:black;
+  display: block;
+  margin-top:10px;
+  padding: 8px 8px;
+}
+.side a{
+ color:black;
+ font-weight:bolder;
+ text-decoration:none;
+}
+.side a:hover{
+  color: green;
+}
+
+label{
+   display:inline-block;
+   float:left;
+   margin-bottom: 0;
+   margin-right: 20px;
+   margin-top: 0;
+   padding: 0;
+   text-align: right;
+   width:85px;
+}
+input{
+   width: 60%; 
+   margin-bottom: 0;
+   margin-top: 0;
+   padding: 0;
+}
+
+input[type="submit"]{
+    background-color: orange;
+    border: solid 2px black;
+    margin-left: 105px;
+    width:25%;
+}
+
+footer{
+  background:linear-gradient(45deg,black,orange,white);
+  border-top: 2px solid black;
+  clear:both;
+  font-size:15px;
+  padding:25px;
+  text-align:center;  
+}
